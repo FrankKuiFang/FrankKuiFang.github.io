@@ -1,144 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document--</title>
+  <meta charset="UTF-8">
+  <title>Frank</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
 
-    <style>
-        dl{
-            border: 1px solid #535;
-            float: left;
-            height: 200px;
-            width: 200px;
-            margin:0 5px
-        }
-    </style>
 </head>
+
 <body>
-    <!--hx标题：设置标题 -->
-    <h1>我是h1标题</h1>
-    <h2>我是h2标题</h2>
-    <h3>我是h3标题</h3>
-    <h4>我是h4标题</h4>
-    <h5>我是h5标题</h5>
-    <h6>我是h6标题</h6>
+  <!-- partial:index.partial.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <div class="resume-wrapper">
+    <section class="profile section-padding">
+      <div class="container">
+        <div class="picture-resume-wrapper">
+          <div class="picture-resume">
+            <span><img src="images/beike.jpg" alt="" /></span>
+            <svg version="1.1" viewBox="0 0 350 350">
 
-    <!-- ? -->
-    <div>hello-</div>
-
-    <!--p标签：代表一个段落 -->
-    <p>dfagesddfagesvd</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-    <p>
-        自暴自弃便是命运的奴隶，自强不息是生命的天使；我不想用别人的汗水浇灌自己的心灵，我愿意用别人的棉袄，来温暖自己的躯体。我只想堂堂正正的做人，我只愿光明磊落做事，该记得的我不会遗忘，该遗忘的我不会存放。
-    </p>
-    
-    <!-- img标签：图片的引入 -->
-    <img src="images/beauty.jpg" alt="IamBeauty" title="Beauty" border="2" width="500px" height="300">
-    <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.doubanio.com%2Fview%2Fnote%2Fl%2Fpublic%2Fp82460877.jpg&refer=http%3A%2F%2Fimg1.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653404791&t=14c964b5fa69c9d7412f525b397e6731" alt="IamBeauty" title="Beauty" border="2" width="500px" height="300">
-
-    <!--a标签：跳转到另一个页面，或者跳转到本页面的某个锚点 -->
-    <a href="http://www.baidu.com" target="_blank" title="I am hinter">LinkToBaidu</a>
-    <a href="jump.html">LinkToLocal</a>
-    
-    <!-- 锚点的设置和使用: -->
-    <h2>周杰伦</h2>
-    <!-- 使用a标签跳转到某个锚点 -->
-    <a href="#MaoDian1">基本信息</a>
-    <a href="#MaoDian2_1">演艺经历</a>
-    <a href="#MaoDian3">年少经历</a>
-    <a href="#Random">某位置</a>
-
-    <!-- id也可以相当于锚点 -->
-    <h3 id="MaoDian1_1">基本信息</h3>
-    <!-- 在该位置添加一个锚点，并命名为MaoDian1 -->
-    <a name="MaoDian1"></a>
-    <p>我叫周杰伦~~</p>
-
-    <h3 id="MaoDian2_1">演艺经历</h3>
-    <!-- 在该位置添加一个锚点，并命名为MaoDian2 -->
-    <a name="MaoDian2"></a>
-    <!-- id也可以相当于锚点，看起来所有的元素都有自己的id啊 -->
-    <p id="Random">今天天气不错哦，苦尽甘来么~~</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-    <p>今天天气不错哦，苦尽甘来么~~</p>
-
-    <h3 id="MaoDian3_1">年少经历</h3>
-    <!-- 在该位置添加一个锚点，并命名为MaoDian3 -->
-    <a name="MaoDian3"></a>
-    <p>童年学习钢琴 并开始创作~~</p>
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9"
+                    result="cm" />
+                </filter>
+              </defs>
 
 
-    <!-- 无序列表学习: 
-        由两个标签构成：
-        1) ul:  unordered list
-        2) li: list item
-        ul内部嵌套li,ul内部只能嵌套li, li标签内部可以桥套任何标签，甚至ul
-     -->
-     <h2>四大名著:</h2>
-     <ul>
-         <li>西游记</li>
-         <li>红楼梦</li>
-         <li>水浒转</li>
-         <li>
-             <h3>三国演义</h3>
-             <ul>
-                 <li>刘备</li>
-                 <li>诸葛亮</li>
-             </ul>
-         </li>
-     </ul>
+              <g filter="url(#goo)">
 
-    <!-- 有序列表学习: 
-        由两个标签构成：
-        1) ol:  ordered list
-        2) li: list item
-        ol内部嵌套li,ol内部只能嵌套li, li标签内部可以桥套任何标签，甚至ol
-     -->
-     <h2>三年级排名:</h2>
-     <ol>
-         <li>2班</li>
-         <li>3班</li>
-         <li>1班</li>
-     </ol>
+                <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130" />
 
-    <!-- 定义列表学习: 
-        作用：定义一个标题和内容自定义的列表结构
-        由3个标签构成：
-        1) dl: definitioin list 表示创建一个自定义列表结构
-        2) dt: definition term 定义主题名字
-        3) dd: definitioin description定义主题的解释内容
-        dl标签内只能存放dt， dd,两者是同级关系,一个dt后面可以跟多个dd;
-     -->
-  
-     <!-- 工作中常如下方式使用，便于css设置dl的样式-->
-     <h2>女明星们们</h2>
-     <dl>
-        <dt>杨幂</dt>
-        <dd>
-            <p>作品： AA, B, C</p>
-            <p>家庭： A, B, C</p>
-        </dd>
-     </dl>
-     <dl>
-        <dt>杨超越</dt>
-        <dd>
-            <p>作品： AA, B, C</p>
-            <p>家庭： A, B, C</p>
-        </dd>
-     </dl>
-     <dl>
-        <dt>杨幂3</dt>
-        <dd>
-            <p>作品： AA, B, C</p>
-            <p>家庭： A, B, C</p>
-        </dd>
-     </dl>
+                <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7" />
+                <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7" />
+
+              </g>
+            </svg>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="name-wrapper">
+          <h1>Frank <br />Fang</h1><!-- YOUR NAME AND LAST NAME  -->
+        </div>
+        <div class="clearfix"></div>
+        <div class="contact-info clearfix">
+          <ul class="list-titles">
+            <li>Mail</li>
+            <li>Blog</li>
+            <li>Addr</li>
+          </ul>
+          <ul class="list-content ">
+            <li>fdfanggang@163.com</li> <!-- YOUR EMAIL -->
+            <li><a href="https://blog.csdn.net/qq_35865125">csdn.net</a></li> <!-- YOUR WEBSITE  -->
+            <li>China</li> <!-- YOUR STATE AND COUNTRY  -->
+          </ul>
+        </div>
+        <div class="contact-presentation">
+          <!-- YOUR PRESENTATION RESUME  -->
+          <p><span class="bold">Hi</span> Nice to meet you </p>
+        </div>
+        <div class="contact-social clearfix">
+          <ul class="list-titles">
+            <li>Twitter</li>
+          </ul>
+          <ul class="list-content">
+            <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+            <li><a href="">@frank</a></li> <!-- YOUR TWITTER USER  -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section-padding">
+      <div class="container">
+        <h3 class="experience-title">Experience</h3>
+
+        <div class="experience-wrapper">
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company 1</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2022 - Present</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+          </div>
+
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Simulation Software Engineer </div> <!-- JOB TITLE  -->
+            <div class="company-description">
+              <p>Software development.</p> <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company 2</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2021 - Nov 2020</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+          </div>
+
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Simulation Software Engineer</div> <!-- JOB TITLE  -->
+            <div class="company-description">
+              <p>Software development.</p> <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company 3</div> <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+            <div class="time">Nov 2021 - Nov 2020</div> <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+          </div>
+
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Simulation Software Engineer </div> <!-- JOB TITLE  -->
+            <div class="company-description">
+              <p>Software development.</p> <!-- JOB DESCRIPTION  -->
+            </div>
+          </div>
+
+        </div>
+        <!--Skill experience-->
+
+        <div class="section-wrapper clearfix">
+          <h3 class="section-title">Skills</h3> <!-- YOUR SET OF SKILLS  -->
+          <ul>
+            <li class="skill-percentage">C++/C</li>
+            <li class="skill-percentage">python</li>
+            <li class="skill-percentage">Linux</li>
+            <li class="skill-percentage">Automous Driving</li>
+            <li class="skill-percentage">Robot</li>
+            <li class="skill-percentage">Operating System</li>
+          </ul>
+        </div>
+
+        <div class="section-wrapper clearfix">
+          <h3 class="section-title">Hobbies</h3> <!-- DESCRIPTION OF YOUR HOBBIES -->
+          <p>Bibycle.</p>
+
+          <p>Sword.</p>
+        </div>
+
+      </div> <!--container-->
+      <div class="section-wrapper-fullwide clearfix">
+        <h3 class="section-title">Others</h3> <!-- fg add -->
+        <p>........................</p>
+      </div>
+    </section>
+
+    <div class="clearfix"></div>
+  </div>
+  <!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>
